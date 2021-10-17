@@ -1,6 +1,4 @@
-import GoblinGame from './GoblinGame';
+import TaskManager from './TaskManager';
 
-const goblinGame = new GoblinGame(document.querySelector('body'));
-goblinGame.drawTable();
-goblinGame.startGame();
-goblinGame.initGame();
+const taskManager = new TaskManager(document.querySelector('.taskmanager'));
+taskManager.addEvents();
